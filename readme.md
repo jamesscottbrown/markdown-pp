@@ -25,8 +25,8 @@ and process that document when viewing the repository.
 2.2\.  [Table of Contents](#tableofcontents)  
 2.3\.  [Reference](#reference)  
 2.4\.  [LaTeX Rendering](#latexrendering)  
-2.5\.  [YouTube Embeds](#youtubeembeds) 
-2.6\.  [Date](#date) 
+2.5\.  [YouTube Embeds](#youtubeembeds)  
+2.6\.  [Dates](#dates)  
 3\.  [Examples](#examples)  
 4\.  [Support](#support)  
 5\.  [References](#references)  
@@ -150,10 +150,21 @@ becomes
 [![Link to Youtube video](images/youtube/7aEYoP5-duY.png)](http://www.youtube.com/watch?v=7aEYoP5-duY)
 
 <a name="dates"></a>
+
 ### 2.6\. Dates
 
 This replaces !DATE or !DATETIME with the date
 (“%Y-%m-%d”) or date-time (“%Y-%m-%d %H:%M”) at which the pre-processor ran.
+
+For example,
+
+	!DATE
+
+becomes
+
+2014-11-24
+
+
 
 <a name="examples"></a>
 

@@ -124,6 +124,21 @@ becomes
 
 !VIDEO "http://www.youtube.com/embed/7aEYoP5-duY"
 
+### Dates
+
+This replaces !DATE or !DATETIME with the date
+(“%Y-%m-%d”) or date-time (“%Y-%m-%d %H:%M”) at which the pre-processor ran.
+
+For example,
+
+	!DATE
+
+becomes
+
+!DATE
+
+
+
 Examples
 --------
 
